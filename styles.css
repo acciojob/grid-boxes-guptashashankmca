@@ -1,15 +1,15 @@
 /*  your css code here. If applicable */
-/* #grid{
+#grid{
 	display:grid;
 	background-color:green;
 	color:white;
 	font-size:30px;
-	grid-template-columns:auto auto auto;
-	grid-template-rows:auto auto auto auto auto;
+	/* grid-template-columns:auto auto auto;
+	grid-template-rows:auto auto auto auto auto; */
 	height:auto;
 	grid-gap:5px;
 }
- */
+
 #grid {
   grid-template-columns: repeat(4, 242.5px);
   grid-template-rows: repeat(5, 124px);
