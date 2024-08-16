@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-#grid{
+/* #grid{
 	display:grid;
 	background-color:green;
 	color:white;
@@ -8,15 +8,25 @@
 	grid-template-rows:auto auto auto auto auto; */
 	height:auto;
 	grid-gap:5px;
-}
+} */
 
-#grid {
+/* #grid {
   grid-template-columns: repeat(4, 242.5px);
   grid-template-rows: repeat(5, 124px);
+} */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 242.5px);
+  grid-template-rows: repeat(5, 124px);
+  grid-gap: 10px;
+}
+
+#grid :first-child {
+  grid-column: span 4;
 }
 .same{
 	border:2px solid white;
-/* }
+}
 #one{
 	grid-column: 1/ span 4;
 }
